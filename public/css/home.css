@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+a {
+    color: #f0d39d;
+    text-decoration: none;
+}
+
+#navbar {
+    font-size: larger;
+}
+
+#navbar-item {
+    font-weight: 600;
+}
+
+#span-navbar {
+    font-weight: 800;
+}
+
+#text-marketing {
+    font-weight: 800;
+}
+
+.navbar-home {
+    background-color: #2fa1da;
+}
+
+.navbar-brand {
+    font-weight: 800;
+}
+
+#home-paragraf {
+    font-weight: 500;
+}
+
+.bg-home {
+    background-color: #2fa1da;
+}
+
+.btn-home {
+    color: aqua;
+}
+
+.bg-ns {
+    background-color: #f0d39d;
+}
+
+.h3-discover {
+    font-weight: 700;
+}
+
+#col-web {
+    border-radius: 50px;
+}
+
+#cd-web {
+    background-color: #2fa1da;
+}
+
+#btn-read-1 {
+    background-color: #2fa1da;
+}
+
+#btn-read-1:hover {
+    background-color: #f0d39d;
+    color: black;
+}
+
+#btn-read-2 {
+    background-color: #2fa1da;
+}
+
+#btn-read-3 {
+    background-color: #2fa1da;
+}
+
+.about {
+    font-weight: 600;
+}
+
+#about-us {
+    font-weight: 800;
+}
+
+#about-paragraf {
+    font-weight: 500;
+}
+
+#about-desc #about-text {
+    font-weight: 800;
+}
+
+#about-text {
+    font-weight: 800;
+}
+
+#question-title {
+    font-weight: 600;
+}
+
+#faq-1 {
+    font-weight: 600;
+}
+
+#faq-2 {
+    font-weight: 800;
+}
+
+#faq-3 {
+    font-weight: 600;
+}
+
+#faq-4 {
+    font-weight: 800;
+}
+
+#faq-5 {
+    font-weight: 600;
+}
+
+#faq-6 {
+    font-weight: 800;
+}
+
+#faq-7 {
+    font-weight: 600;
+}
+
+#faq-8 {
+    font-weight: 800;
+}
+
+#img-nahda {
+    object-fit: cover;
+}
+
+#bg-author {
+    background-color: #2fa1da;
+}
+
+#title-contact {
+    font-weight: 800;
+}
+
+#desc-author {
+    font-weight: 800;
+}
+
+#contact {
+    background-color: #f0d39d;
+    font-weight: 500;
+}
+
+#bg-footer {
+    background-color: #2fa1da;
+}
+
+/* Contact Section */
+
+#ct-contact {
+    width: 60%;
+    padding: 45px;
+    border-radius: 0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#rw-contact {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+#cl-contact7 {
+    padding: 20px;
+}
+
+#cl-contact5 {
+    background-color: #2fa1da;
+    padding: 20px;
+    color: white;
+}
+
+.form-label {
+    font-weight: 600;   
+}
+
+.form-control {
+    height: 52px;
+    background: #f0d39d;
+    color: black;
+    font-size: 14px;
+    border-radius: 2px;
+    box-sizing: none! important;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.mb-3 {
+    font-weight: 600;
+}
+
+.bi {
+    font-size: 18px;
+}
+
+.d-flex p {
+    font-size: 16px;
+    padding-left: 18px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.btn {
+    background-color: red;
+}
+
+
+/* .contact {
+    padding: 5rem 7% 1.4rem;
+    color: black;
+}
+
+.contact h2 {
+    text-align: center;
+    font-size: 2.6rem;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+    font-weight: 600;
+}
+
+.contact h2 span {
+    color: #2fa1da;
+    font-weight: 800;
+}
+
+.contact p {
+    text-align: center;
+    max-width: 40rem;
+    margin: auto;
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+.contact .row {
+    display: flex;
+    margin-top: 1.5rem;
+    background-color: #2fa1da;
+}
+
+.contact .row .map {
+    flex: 0.5 1 25rem;
+    margin-left: 2rem;
+    object-fit: cover;
+}
+
+.contact .row form {
+    flex: 1 1 15rem;
+    padding: 1rem 9rem;
+    text-align: center;
+}
+
+.contact .row form .input-group .icon {
+    color: white;
+}
+
+.contact .row form .input-group {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    background-color: #f0d39d;
+    border-radius: 200px;
+}
+
+.contact .row form .input-group input {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    background: none;
+}
+
+.contact .row form .btn {
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+    display: inline-block;
+    padding: 1rem 1.5rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: white;
+    background-color: var(--core);
+    cursor: pointer;
+    border-radius: 200px;
+}
+
+.contact .row form .btn:hover {
+    background-color: black;
+    color: #2fa1da;
+} */
+
+/* End About Section */
+
+/* Media Queries */
+
+/* Laptop */
+/* @media (max-width: 1366px) {
+    html {
+        font-size: 75%;
+    }
+} */
+
+/* Tablet */
+/* @media (max-width: 768px) {
+    html {
+        font-size: 62.5%;
+    }
+
+    .contact .row {
+        flex-wrap: wrap;
+    }
+
+    .contact .row .map {
+        height: 30rem;
+    }
+
+    .contact .row form {
+        padding-top: 1.5rem;
+    }
+} */
+
+/* Mobile Phone */
+/* @media (max-width: 450px) {
+    html {
+        font-size: 55%;
+    }
+} */
